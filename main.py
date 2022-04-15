@@ -2,7 +2,7 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
-numbers = [ ord(i) for i in "0123456789+-*/="]
+numbers = [ ord(i) for i in "0123456789+-*/=()"]
 
 class Main():
     def __init__(self):
